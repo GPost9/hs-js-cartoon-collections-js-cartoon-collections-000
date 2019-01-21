@@ -3,9 +3,10 @@ function dwarfRollCall(dwarves) {
   for ( var i = 0; i < dwarves.length; i++)
   {
    hiHo.push(`${i+1}. ${dwarves[i]} `);
-  }
+  } 
 return hiHo.join('');
 }
+
 
 
 function summonCaptainPlanet(planeteerCalls){
