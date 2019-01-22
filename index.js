@@ -3,12 +3,10 @@ function dwarfRollCall(dwarves) {
   for ( var i = 0; i < dwarves.length; i++)
   {
    hiHo.push(`${i+1}. ${dwarves[i]} `);
-<<<<<<< HEAD
+
   } 
 return hiHo.join('');
-=======
-  }
->>>>>>> 5df9977bead3942b09d0e106446dce992bd366b3
+
 }
 
 
@@ -43,4 +41,11 @@ function findTheCheese (foods) {
 }
 }
 return 'no cheese!';
+}
+
+function wordsWithB (words) {
+  var array = []
+  for (var i = 0; i < words.length; i++) {
+    for (var j = 0; j < array.length; j++)
+  }
 }
