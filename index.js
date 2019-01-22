@@ -1,6 +1,6 @@
 function dwarfRollCall(dwarves) {
   var hiHo = [];
-  for ( var i = 0; i < dwarves.length; i++)
+  for ( var i = dwarves.length/2 ; i < dwarves.length; i++)
   {
    hiHo.push(`${i+1}. ${dwarves[i]} `);
 
@@ -49,7 +49,7 @@ function wordsWithB (words) {
     if (words[i][0] === 'b')
     array.push(words[i])
     
-     console.log(words);
+     
   }
   return array
 }
